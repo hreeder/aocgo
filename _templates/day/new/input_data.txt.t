@@ -1,3 +1,3 @@
 ---
-to: data/<%= year || '2024' %>/day<%= day %>.txt
+to: data/<%= locals.year || '2024' %>/day<%= day %>.txt
 ---

@@ -1,7 +1,7 @@
 ---
-to: pkg/aoc<%= year || '2024' %>/day<%= day %>_test.go
+to: pkg/aoc<%= locals.year || '2024' %>/day<%= day %>_test.go
 ---
-package aoc<%= year || '2024' %>
+package aoc<%= locals.year || '2024' %>
 
 import "testing"
 
